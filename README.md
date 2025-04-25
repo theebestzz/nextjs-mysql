@@ -32,31 +32,3 @@ npm install
 
 npm run dev
 ```
-
-▫ Proje Yapısı
-
-src/
-├── app/
-│   └── admin/
-│       ├── login/
-│       │   ├── page.tsx
-│       │   └── layout.tsx
-│       ├── users/
-│       │   ├── page.tsx
-│       │   └── layout.tsx
-│       └── layout.tsx
-├── components/
-│   └── admin/
-│       ├── forms/
-│       │   ├── CreateForm.tsx
-│       │   ├── UpdateForm.tsx
-│       │   └── LoginForm.tsx
-│       ├── Sidebar.tsx
-│       └── LogoutButton.tsx
-├── lib/
-│   └── actions/
-│       ├── user.ts
-│       ├── auth.ts
-│       ├── db.ts
-│       └── types.ts
-
